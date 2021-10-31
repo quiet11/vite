@@ -13,7 +13,7 @@
   </van-nav-bar>
     <!-- 分享面板 -->
         <van-share-sheet
-          v-model:show="showShare"
+          :show="showShare"
           title="立即分享给好友"
           :options="options"
          
